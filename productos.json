@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cerveza Rubia Quilmes Clásica",
+    "precio": 2200,
+    "tamano": "1 Litro",
+    "imagen": "img/quilmes-clasica.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Cerveza Rubia Stella Artois",
+    "precio": 3100,
+    "tamano": "975 cc",
+    "imagen": "img/stella-artois-1lt.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Cerveza Landvik",
+    "precio": 1800,
+    "tamano": "Lata 473 cc",
+    "imagen": "img/landvik.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Cerveza Rubia Corona",
+    "precio": 1600,
+    "tamano": "Porrón 330 cc",
+    "imagen": "img/corona330.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Cerveza Negra Imperial Stout",
+    "precio": 2400,
+    "tamano": "Lata 473 cc",
+    "imagen": "img/imperial-stout.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Cerveza Roja Patagonia Amber Lager",
+    "precio": 3400,
+    "tamano": "730 cc",
+    "imagen": "img/patagonia-amber-lager.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "Cerveza Rubia Heineken",
+    "precio": 3300,
+    "tamano": "1 Litro",
+    "imagen": "img/heineken1lt.webp"
+  },
+  {
+    "id": 8,
+    "nombre": "Cerveza Rubia Brahma",
+    "precio": 1950,
+    "tamano": "1 Litro",
+    "imagen": "img/brahma-1lt.webp"
+  },
+  {
+    "id": 9,
+    "nombre": "Cerveza Rubia Andes Origen Rubia",
+    "precio": 2100,
+    "tamano": "1 Litro",
+    "imagen": "img/andes-origen-1lt.webp"
+  },
+  {
+    "id": 10,
+    "nombre": "Cerveza Roja Andes Origen Roja",
+    "precio": 2300,
+    "tamano": "1 Litro",
+    "imagen": "img/andes-origen-roja-1lt.webp"
+  },
+  {
+    "id": 11,
+    "nombre": "Cerveza Rubia Schneider",
+    "precio": 1800,
+    "tamano": "Lata 710 cc",
+    "imagen": "img/schneider710.webp"
+  },
+  {
+    "id": 12,
+    "nombre": "Cerveza Imperial IPA",
+    "precio": 2500,
+    "tamano": "Lata 473 cc",
+    "imagen": "img/imperial-ipa473.webp"
+  },
+  {
+    "id": 13,
+    "nombre": "Cerveza Imperial Extra Lager",
+    "precio": 2400,
+    "tamano": "Botella 473 cc",
+    "imagen": "img/imperial-extralager473.webp"
+  },
+  {
+    "id": 14,
+    "nombre": "Cerveza Bajocero",
+    "precio": 2150,
+    "tamano": "1 Litro",
+    "imagen": "img/bajocerol1t.webp"
+  },
+  {
+    "id": 15,
+    "nombre": "Cerveza Quilmes Ipa",
+    "precio": 1900,
+    "tamano": "1 Litro",
+    "imagen": "img/quilmes-ipa1lt.webp"
+  },
+    {
+    "id": 16,
+    "nombre": "Cerveza Heineken 0.0",
+    "precio": 1900,
+    "tamano": "Porrón 330 cc",
+    "imagen": "img/heineken00.webp"
+  },
+    {
+    "id": 17,
+    "nombre": "Cerveza Imperial Golden",
+    "precio": 1900,
+    "tamano": "Lata 473 cc",
+    "imagen": "img/imperial-golden473.webp"
+  },
+    {
+    "id": 18,
+    "nombre": "Cerveza Imperial Extralager",
+    "precio": 1900,
+    "tamano": "Lata 473 cc",
+    "imagen": "img/imperial-extralager473.webp"
+  }
+]

@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Distribución de la tienda */
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* 3 partes para productos, 1 para el carrito */
+    gap: 20px;
+    align-items: start;
+}
+
+/* Grilla de productos */
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.producto-tarjeta {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.producto-tarjeta img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.producto-tarjeta h3 {
+    font-size: 1.1rem;
+    margin: 10px 0 5px 0;
+}
+
+.producto-tarjeta .tamano {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.producto-tarjeta .precio {
+    font-weight: bold;
+    color: #2e7d32;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Botones */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* El Carrito Lateral */
+#carrito {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 20px;
+}
+
+.item-carrito {
+    margin-bottom: 15px;
+}
+
+.controles-cantidad {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.controles-cantidad button {
+    padding: 2px 8px;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.controles-cantidad button:hover {
+    background-color: #ccc;
+}
+
+#totales {
+    margin-top: 20px;
+    border-top: 2px solid #eee;
+    padding-top: 15px;
+}
+
+#precio-total {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+#vaciar-carrito {
+    background-color: #dc3545;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#vaciar-carrito:hover {
+    background-color: #bd2130;
+}
+
+#finalizar-compra {
+    background-color: #28a745;
+    width: 100%;
+}
+
+#finalizar-compra:hover {
+    background-color: #218838;
+}
