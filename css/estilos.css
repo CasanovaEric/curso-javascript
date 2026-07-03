@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -7,22 +7,25 @@ body {
     color: #333;
 }
 
+.logo {
+    width: 10vw;
+}
+
 header {
-    text-align: center;
+    display: flex;
+    align-items: center;
     margin-bottom: 30px;
     padding-bottom: 10px;
     border-bottom: 2px solid #ddd;
 }
 
-/* Distribución de la tienda */
 main {
     display: grid;
-    grid-template-columns: 3fr 1fr; /* 3 partes para productos, 1 para el carrito */
+    grid-template-columns: 3fr 1fr; 
     gap: 20px;
     align-items: start;
 }
 
-/* Grilla de productos */
 .productos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -61,7 +64,6 @@ main {
     margin-bottom: 10px;
 }
 
-/* Botones */
 button {
     background-color: #007bff;
     color: white;
@@ -76,7 +78,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* El Carrito Lateral */
 #carrito {
     background: white;
     padding: 20px;
@@ -136,4 +137,18 @@ button:hover {
 
 #finalizar-compra:hover {
     background-color: #218838;
+}
+
+.btn-agregar.agotado {
+    background-color: #6c757d; 
+    cursor: not-allowed;      
+    opacity: 0.6;
+}
+.btn-agregar.agotado:hover {
+    background-color: #6c757d;
+}
+.producto-tarjeta .stock {
+    font-size: 0.85rem;
+    color: #555;
+    margin: 5px 0;
 }
